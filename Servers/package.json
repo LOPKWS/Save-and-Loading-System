@@ -1,0 +1,19 @@
+{
+  "name": "save_load",
+  "version": "1.0.0",
+  "description": "A program to save and load info",
+  "main": "main_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Skyler",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "cryptr": "^6.0.2",
+    "express": "^4.17.1",
+    "js-sha256": "^0.9.0",
+    "nedb": "^1.8.0",
+    "sjcl": "^1.0.8"
+  }
+}
