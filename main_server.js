@@ -2,6 +2,16 @@
 const express = require('express')
 const Datastore = require('nedb')
 
+var liveServer = require("live-server");
+
+var params = {
+	port: 800, // Set the server port. Defaults to 8080.
+	host: "192.168.1.70", // Set the address to bind to. Defaults to 0.0.0.0 or process.env.IP.
+	root: "./public/main", // Set root directory that's being served. Defaults to cwd.
+  open: false
+};
+liveServer.start(params);
+
 //Seeting the Local Host to a variable
 const port = 800
 
