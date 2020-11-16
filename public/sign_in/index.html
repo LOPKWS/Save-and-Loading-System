@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+  </head>
+  <!-- loads a very basic css style sheet -->
+  <link rel='stylesheet' href="style.css">
+  <body>
+    <p>Sign Up!</p>
+    <!-- creating a link to our javascript file -->
+    <script type="text/javascript" src='main.js'></script>
+    <!-- Creating a basic form and making sure that when its submitted
+    it dosen't do anything so that we can handle it with our main.js file -->
+    <form id="Info" onsubmit="return false" action="index.html" method="post">
+      <!-- Setting a label and a text input box for the username info -->
+      <label for='User'>Username</label>
+      <input type="text" id="User" value=""><br>
+      <!-- Setting a label and a text input box for the password info -->
+      <label for='Pass'>Password</label>
+      <input type="text" id="Pass" value=""><br><br>
+
+      <!-- Setting a button to submit the form -->
+    <button id='bt'>Submit</button>
+    </form>
+  </body>
+</html>

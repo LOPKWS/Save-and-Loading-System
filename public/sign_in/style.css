@@ -1,0 +1,23 @@
+/*
+I have very basic knowledge of css and how to use it
+*/
+
+
+body {
+  background-color: darkgrey;
+}
+
+p {
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  font-family: verdana;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: black#
+}
